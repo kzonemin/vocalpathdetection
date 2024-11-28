@@ -50,7 +50,6 @@ cd vocal-pathology-detection
 Copy code
 pip install -r requirements.txt  
 ```
-3. (Optional) Set up the R environment if using R-based tools.
 
 
 *Usage*
@@ -78,11 +77,13 @@ python visualize_results.py
 
 
 *Dataset*
+
 The dataset used for this project consists of voice recordings from individuals with and without pathological conditions. [Provide details about dataset source or instructions for obtaining it.]
 
 
 
 *Model Training and Evaluation*
+
 The features are extracted from audio files using Librosa. Training and testing were performed using multiple classifiers. Evaluation metrics include accuracy, precision, recall, and F1-score.
 
 
@@ -92,6 +93,7 @@ The features are extracted from audio files using Librosa. Training and testing 
 
 
 *License*
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
@@ -100,8 +102,10 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 
 *Dataset Source*
+
 https://stimmdb.coli.uni-saarland.de/help_en.php4
 
 
 *Advisor*
+
 Dr. Ananya Bonjyotsna, Assistant Professor, Department of ECE, Tezpur University
