@@ -19,22 +19,26 @@ Table of Contents
 
 
 *Introduction*
+
 This repository implements a machine learning solution to detect pathological voice conditions using audio recordings. The system analyzes vocal features and classifies voices into pathological or healthy categories.
 
 
 *Features*
+
 Extracts acoustic features such as jitter, shimmer, and MFCCs.
 Uses advanced machine learning models like Support Vector Machine (SVM), Gaussian Mixture Models (GMM), and Random Forest Classifier (RFC).
 Provides insights into vocal health based on audio analysis.
 
 
 *Technologies Used*
+
 Programming Languages: Python
 Python: NumPy, Pandas, Scikit-learn, Librosa, Matplotlib
 Machine Learning Models: SVM, GMM, RFC
 
 
 *Installation*
+
 1. Clone this repository:
 ```bash
 git clone https://github.com/<your-username>/vocal-pathology-detection.git  
