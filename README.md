@@ -30,34 +30,42 @@ R: caret, ggplot2
 Machine Learning Models: SVM, GMM, RFC
 Installation
 Clone this repository:
-bash
-Copy code
+```bash
 git clone https://github.com/<your-username>/vocal-pathology-detection.git  
 cd vocal-pathology-detection  
+```
+
 Install the required Python packages:
-bash
+```bash
 Copy code
 pip install -r requirements.txt  
+```
 (Optional) Set up the R environment if using R-based tools.
+
 Usage
 Preprocess the dataset:
 Ensure the audio files are in the correct format.
 Run the preprocessing script to extract features:
-bash
-Copy code
+
+```bash
 python extract_features.py  
+```
+
 Train the model:
-bash
-Copy code
+```bash
 python train_model.py  
+```
+
 Test the model:
-bash
-Copy code
-python test_model.py  
+```bash
+python test_model.py
+```
+
 Visualize the results:
-bash
-Copy code
-python visualize_results.py  
+```bash
+python visualize_results.py
+```
+
 Dataset
 The dataset used for this project consists of voice recordings from individuals with and without pathological conditions. [Provide details about dataset source or instructions for obtaining it.]
 
